@@ -1,2 +1,2 @@
-# JAVA_Primeiros_Passos
- Java primeiros passos Lógica de Programação e Algoritmos.
+# JAVA
+ Repositorio para arquivos JAVA
