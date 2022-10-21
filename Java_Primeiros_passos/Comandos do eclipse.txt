@@ -1,0 +1,3 @@
+Ctrl + shift + F = "Indentação automatica do codigo"
+
+sysout + Ctrl + space = "System.out.println();"
