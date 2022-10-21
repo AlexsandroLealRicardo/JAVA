@@ -3,3 +3,5 @@ Ctrl + shift + F = "Indentação automatica do codigo"
 sysout + Ctrl + space = "System.out.println();"
 
 Ctrl + shift + O = "importa automaticamente todos os pacotes"
+
+Ctrl + shift + B = "adicionar um break point"
