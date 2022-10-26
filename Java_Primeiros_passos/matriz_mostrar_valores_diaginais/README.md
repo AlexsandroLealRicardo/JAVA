@@ -4,6 +4,6 @@
  
  * [Link do Tutoria](https://www.youtube.com/watch?v=LxjxiUv9Yg8)
  
- [![Video Tutorial](blob:https://imgur.com/1051d146-7d4f-408f-be12-cbbe7ebf700e)](https://www.youtube.com/watch?v=LxjxiUv9Yg8)
+ [![Video Tutorial](https://github.com/TiagoMoreiraPimentel/JAVA/blob/main/Java_Primeiros_passos/matriz_mostrar_valores_diaginais/captura.jpg?raw=true)](https://www.youtube.com/watch?v=LxjxiUv9Yg8)
  
  * [Link do video](https://www.youtube.com/watch?v=LxjxiUv9Yg8)
