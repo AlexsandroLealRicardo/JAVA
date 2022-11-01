@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\nitro\Desktop\SERVIDOR GITHUB\JAVA\java_completo_POO\calcular_area_triangulo\.metadata\.plugins\org.eclipse.jdt.core
