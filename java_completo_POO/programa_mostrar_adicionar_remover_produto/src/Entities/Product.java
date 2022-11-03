@@ -6,6 +6,13 @@ public class Product {
 	public double price;
 	public int quantity;
 	
+	// construtor
+	public Product(String name, double price, int quantity){
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
+	
 	public double TotalValueInStock() {
 		return price * quantity;
 	}
@@ -18,6 +25,7 @@ public class Product {
 		this.quantity -= quantity;
 	}
 	
+	// formatar texto
 	public String toString(){
 		return name 
 				+ ", $ " 
