@@ -2,9 +2,9 @@ package Entities;
 
 public class Product {
 	
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 	
 	// construtor
 	public Product(String name, double price, int quantity){
