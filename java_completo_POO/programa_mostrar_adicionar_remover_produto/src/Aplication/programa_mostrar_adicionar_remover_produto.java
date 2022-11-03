@@ -10,18 +10,18 @@ public class programa_mostrar_adicionar_remover_produto {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		Product product = new Product();
 		System.out.println("Enter product data: ");
 		System.out.println("Name: ");
-		product.name = sc.next();
+		String name = sc.next();
 		System.out.println("Price: ");
-		product.price = sc.nextDouble();
+		double price = sc.nextDouble();
 		System.out.println("Quantity in stock: ");
-		product.quantity = sc.nextInt();
+		int quantity = sc.nextInt();
+		Product product = new Product(name, price, quantity);
 		System.out.printf("Product data: " + product);
 		System.out.println();
 		System.out.println("Enter the number of products to be added in stock: ");
-		int quantity = sc.nextInt();
+		quantity = sc.nextInt();
 		product.AddProducts(quantity);
 		System.out.printf("Product data: " + product);
 		System.out.println();
@@ -30,7 +30,6 @@ public class programa_mostrar_adicionar_remover_produto {
 		product.RemoveProducts(quantity);
 		System.out.printf("Product data: " + product);
 		System.out.println();
-		
 
 		sc.close();
 
