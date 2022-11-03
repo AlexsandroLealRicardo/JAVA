@@ -12,7 +12,24 @@ public class Product {
 		this.price = price;
 		this.quantity = quantity;
 	}
+	// getters e setters
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setName(double price) {
+		this.price = price;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
 	
+	// funções
 	public double TotalValueInStock() {
 		return price * quantity;
 	}
